@@ -38,6 +38,11 @@ p {
   color: white;
 }
 
+.bg-primary {
+  background: #93cb52;
+  color: white;
+}
+
 .l-heading {
   font-size: 4rem;
   margin-bottom: 0.75rem;
@@ -207,4 +212,28 @@ p {
   display: block;
   margin: auto;
   width: 60%;
+}
+
+/* Section: COntact */
+#contact {
+  display: flex;
+}
+
+#contact .map,
+#contact .contact-form {
+  flex: 1;
+}
+
+#contact .contact-form .form-group {
+  margin: 0.75rem;
+}
+
+#contact .contact-form .form-group label {
+  display: block;
+}
+
+#contact .contact-form .form-group input,
+#contact .contact-form .form-group textarea {
+  width: 100%;
+  padding: 0.5rem;
 }
