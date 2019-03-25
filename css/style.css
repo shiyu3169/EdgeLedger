@@ -19,6 +19,10 @@ p {
   margin: 0.75rem 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* Utility Classes */
 .text-primary {
   color: #93cb52;
@@ -174,7 +178,7 @@ p {
 /* Section: What We Do */
 #what .items {
   display: flex;
-  pading: 1rem;
+  padding: 1rem;
 }
 
 #what .items .item {
